@@ -1,3 +1,4 @@
+
 :root {
     --verdeOscuro: #2A3820;
     --black: #000000;
@@ -18,12 +19,19 @@
 }
 
 .carousel-inner {
-    height: auto;
+    height: 700px;
 }
 
-/* .item,
-img {
-    height: 100% !important;
-    width: 100% !important;
-    border: 1px solid red;
-} */
+.titulos,
+h1,
+h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.subtitulos {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.headerr {
+    height: auto;
+}
