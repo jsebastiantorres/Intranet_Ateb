@@ -1,13 +1,30 @@
-
 :root {
-    --verdeOscuro: #2A3820;
-    --black: #000000;
-    --very-light-pink: #C7C7C7;
-    --text-input-field: #F7F7F7;
-    --hospital-green: #ACD9B2;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
+    /* --hover: #{adjust-hue($color, 45deg)}; */
 }
 
 .fondo {
@@ -41,10 +58,80 @@ h2 {
     padding-bottom: 1.25rem;
     color: #fff;
     text-align: center;
-  }
+}
 
-  .text-uppercase{
+.text-uppercase {
     font-size: 100px;
-  }
+}
 
- 
+.heon{
+    color: var(--bs-cyan);
+}
+
+.heon:hover,
+.heon:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-cyan);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+.seven{
+    color: var(--bs-teal);
+}
+
+.seven:hover,
+.seven:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-teal);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+.infopoint{
+    color: var(--bs-yellow);
+}
+
+.infopoint:hover,
+.infopoint:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-yellow);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+.nomina{
+    color: var(--bs-orange);
+}
+
+.nomina:hover,
+.nomina:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-orange);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+.permisos{
+    color: var(--bs-red);
+}
+
+.permisos:hover,
+.permisos:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-red);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+.registro{
+    color: var(--bs-pink);
+}
+
+.registro:hover,
+.registro:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-pink);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
