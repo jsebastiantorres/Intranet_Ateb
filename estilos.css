@@ -37,6 +37,7 @@
 
 .carousel-inner {
     height: 700px;
+    
 }
 
 .titulos,
@@ -137,3 +138,22 @@ h2 {
 }
 
 
+
+
+/*estilos galeria*/
+
+.galeria{
+    position: absolute;
+    right: 15%;
+    bottom: 40.0rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-inner2 {
+    height: 430px;
+    
+}
