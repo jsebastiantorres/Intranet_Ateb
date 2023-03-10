@@ -27,6 +27,21 @@
     /* --hover: #{adjust-hue($color, 45deg)}; */
 }
 
+#logo {
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.headerr {
+    margin-top: 50px;
+}
+
+/* .container-carousel{
+    height: 10px;
+    width: 50%;
+} */
+
 .fondo {
     background-color: var(--verdeOscuro);
 }
@@ -36,9 +51,15 @@
 }
 
 .carousel-inner {
-    height: 700px;
-    
+    height: 350px;
 }
+
+.carousel-caption {
+    height: 350px;
+    /* display: flex; */
+    flex-direction: column;
+}
+
 
 .titulos,
 h1,
@@ -51,7 +72,7 @@ h2 {
 }
 
 .carousel-caption {
-    position: absolute;
+    /* position: absolute; */
     right: 15%;
     bottom: 40.0rem;
     left: 15%;
@@ -65,7 +86,7 @@ h2 {
     font-size: 100px;
 }
 
-.heon{
+.heon {
     color: var(--bs-cyan);
 }
 
@@ -77,7 +98,7 @@ h2 {
     color: var(--bs-white);
 }
 
-.seven{
+.seven {
     color: var(--bs-teal);
 }
 
@@ -89,7 +110,7 @@ h2 {
     color: var(--bs-white);
 }
 
-.infopoint{
+.infopoint {
     color: var(--bs-yellow);
 }
 
@@ -101,7 +122,7 @@ h2 {
     color: var(--bs-white);
 }
 
-.nomina{
+.nomina {
     color: var(--bs-orange);
 }
 
@@ -113,7 +134,7 @@ h2 {
     color: var(--bs-white);
 }
 
-.permisos{
+.permisos {
     color: var(--bs-red);
 }
 
@@ -125,7 +146,7 @@ h2 {
     color: var(--bs-white);
 }
 
-.registro{
+.registro {
     color: var(--bs-pink);
 }
 
@@ -142,7 +163,7 @@ h2 {
 
 /*estilos galeria*/
 
-.galeria{
+.galeria {
     position: absolute;
     right: 15%;
     bottom: 40.0rem;
@@ -156,3 +177,21 @@ h2 {
 .carousel-inner2 {
     height: 430px;
 }
+
+
+
+@media (max-width: 1366px) {
+    .carousel-caption {
+        justify-content: end;
+        display: flex;
+    }
+}
+
+
+@media (min-width: 1367px) {
+    .carousel-caption {
+        justify-content: start;
+        display: flex;
+    }
+}
+
