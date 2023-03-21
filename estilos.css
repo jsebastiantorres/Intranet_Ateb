@@ -20,6 +20,7 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f9fa;
     --bs-dark: #212529;
+    --opacidad-negro: black;
 
     --sm: 14px;
     --md: 16px;
@@ -37,14 +38,53 @@
     margin-top: 50px;
 }
 
-/* .container-carousel{
-    height: 10px;
-    width: 50%;
-} */
 
-.fondo {
-    background-color: var(--verdeOscuro);
+/* navbar */
+.libro:hover,
+.libro:focus {
+    border-radius: 5px;
 }
+
+.nav-link:hover,
+.nav-link:focus {
+    color: var(--bs-light);
+}
+
+
+#libro-com:hover,
+#libro-com:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-cyan);
+    transform: translateY(-0.25em);
+    border-radius: 5px;
+}
+
+#libro-for:hover,
+#libro-for:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-teal);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+#libro-web:hover,
+#libro-web:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-yellow);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+#libro-gal:hover,
+#libro-gal:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-orange);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+
+/* SECCION CARRUSEL */
 
 .carruzel {
     height: 10px;
@@ -60,7 +100,6 @@
     flex-direction: column;
 }
 
-
 .titulos,
 h1,
 h2 {
@@ -72,9 +111,9 @@ h2 {
 }
 
 .carousel-caption {
-    /* position: absolute; */
+    /* position: relative; */
     right: 15%;
-    bottom: 40.0rem;
+    bottom: 10rem;
     left: 15%;
     padding-top: 1.25rem;
     padding-bottom: 1.25rem;
@@ -83,11 +122,40 @@ h2 {
 }
 
 .text-uppercase {
-    font-size: 100px;
+    font-size: 60px;
+    color: var(--bs-light);
+}
+
+.img-carrusel {
+    /* background-image: */
+    position: relative;
+    right: 0%;
+    bottom: 0rem;
+    left: 0%;
+}
+
+.btn-link{
+    color: var(--bs-white);
+}
+
+.btn-link:hover{
+    color: var(--bs-dark);
+}
+
+
+
+/* SECCION PORTALES */
+.card {
+    border: 1px solid
+}
+
+.btn-portales {
+    border: none;
 }
 
 .heon {
     color: var(--bs-cyan);
+    /* border: 1px solid; */
 }
 
 .heon:hover,
@@ -159,8 +227,6 @@ h2 {
 }
 
 
-
-
 /*estilos galeria*/
 
 .galeria {
@@ -178,21 +244,45 @@ h2 {
     height: 10px;
 }
 
-.carousel-inner2 img:hover{
+.carousel-inner2 img:hover {
     cursor: crosshair;
     width: 500px;
     opacity: 1;
 
 }
 
-<<<<<<< HEAD
-.galery{
-
+/* GALERIA */
+.galery {
     margin-top: 50px;
 }
-=======
 
 
+.event {
+    display: flex;
+    width: 400px;
+    height: 100px;
+}
+
+.event img {
+    width: 400px;
+    flex-grow: 1;
+    object-fit: scale-down;
+    opacity: 8;
+    transition: 3s ease;
+}
+
+.event img:hover {
+    cursor: crosshair;
+    width: 500px;
+    opacity: 1;|
+
+}
+
+
+
+
+
+/* Dejar los @media siempre al final del archivo */
 @media (max-width: 1366px) {
     .carousel-caption {
         justify-content: end;
@@ -206,26 +296,8 @@ h2 {
         justify-content: start;
         display: flex;
     }
-}
 
->>>>>>> 9dd0dac99cdbdff9535c5839e6c852bdf9873b93
-.event {
-    display: flex;
-    width: 400px;
-    height: 100px;
+    .carousel-caption {
+        bottom: 5rem;
+    }
 }
-
- .event img{
-    width: 400px;
-    flex-grow: 1;
-    object-fit: scale-down;
-    opacity: 8;
-    transition:3s ease;
-}
-
- .event img:hover{
-    cursor: crosshair;
-    width: 500px;
-    opacity: 1;
-    
-} 

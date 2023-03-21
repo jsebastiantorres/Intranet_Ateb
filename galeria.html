@@ -1,159 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Boostrap -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="estilos.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Boostrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+  <link rel="stylesheet" href="estilos.css" />
 
-    <!-- Font Awespme -->
-    <script
-      src="https://kit.fontawesome.com/3469b67fa1.js"
-      crossorigin="anonymous"
-    ></script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet" />
 
-    <title>INTRANET ATEB</title>
-  </head>
+  <!-- Font Awespme -->
+  <script src="https://kit.fontawesome.com/3469b67fa1.js" crossorigin="anonymous"></script>
 
-  <body>
-    <!-- Seccion Navbar -->
-    <nav class="navbar navbar-expand-lg fixed-top bg-light px-5">
-      <div class="container-fluid">
-        <a class="navbar-brand ms-5 me-0" href="#">ATEB</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="collapse navbar-collapse d-flex justify-content-center me-5"
-          id="navbarNavDropdown"
-        >
-          <ul class="navbar-nav">
-            <!-- <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li> -->
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Comunicados</a>
-            </li>
-            <li class="nav-item dropdown mx-2">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Formatos
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Internos</a></li>
-                <li><a class="dropdown-item" href="#">TICS</a></li>
-                <!-- <li><a class="dropdown-item" href="#"></a></li> -->
-              </ul>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Web</a>
-            </li>
-            <li class="nav-item mx-2">
-              <a class="nav-link" href="#">Cumpleaños</a>
-            </li>
-          </ul>
+  <title>INTRANET ATEB</title>
+</head>
+
+<body>
+
+  <!-- Seccion Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top bg-light px-5 pt-2">
+    <div class="container-fluid ">
+      <a class="navbar-brand ms-5 me-0 p-0" href="index.html">
+        <img id="logo" src="images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-center me-5" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+
+          <li id="libro-com" class="nav-item mx-2 libro">
+            <a class="nav-link" href="comunicados.html">Comunicados</a>
+          </li>
+          <li id="libro-for" class="nav-item dropdown mx-2 libro">
+            <a class="nav-link dropdown-toggle" href="formatos.html" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Formatos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="for_interenos.html">Internos</a></li>
+              <li><a class="dropdown-item" href="for_TICS.html">TICS</a></li>
+              <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+            </ul>
+          </li>
+          <li id="libro-web" class=" nav-item mx-2 libro">
+            <a class="nav-link" href="https://www.atebsoluciones.com/" target="_blank">Web</a>
+          </li>
+          <li id="libro-gal" class="nav-item mx-2 libro">
+            <a class="nav-link" href="galeria.html">Galeria</a>
+          </li>
+          <!-- <li class="nav-item">
+                              <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Seccion eventos y galeria -->
+  <div class="galery">
+    <div class="row">
+      <div class="col-3">
+        <div class="row">
+          <div class="col-xl-12 col-sm-12 col-2 p-3 ms-5">
+            <button type="button" class="accordion w-100 border-0 btn">
+              <!-- <a href="" class="text-decoration-none"> -->
+              <div class="card shadow border-0 heon">
+                <div class="card-content">
+                  <div class="card-body">
+                    <div class="media d-flex justify-content-between align-items-center p-3">
+                      <div class="">
+                        <i class="fa-solid fa-cake fa-3x"></i>
+                      </div>
+                      <div class="media-body text-end">
+                        <h3>Cumpleaños</h3>
+                        <span>Colaboradores</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- </a> -->
+              <div class="accordion-item">
+
+              </div>
+            </button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-12 col-sm-12 col-2 p-3 ms-5">
+            <button type="button" class="w-100 border-0 btn">
+              <div class="card shadow border-0 infopoint">
+                <div class="card-content">
+                  <div class="card-body">
+                    <div class="media d-flex justify-content-between align-items-center p-3">
+                      <div class="">
+                        <i class="fa-solid fa-building fa-3x"></i>
+                      </div>
+                      <div class="media-body text-end">
+                        <h3>Eventos</h3>
+                        <span>ATEB</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
-    </nav>
-    
-
-    <!-- Seccion eventos y galeria -->
-    <div class="galery">
-      <div class="row">
-        <div class="col-3">
-          <div class="row">
-            <div class="col-xl-12 col-sm-12 col-2 p-3 ms-5">
-              <button type="button" class="accordion w-100 border-0 btn">
-                <!-- <a href="" class="text-decoration-none"> -->
-                <div class="card shadow border-0 heon">
-                  <div class="card-content">
-                    <div class="card-body">
-                      <div
-                        class="media d-flex justify-content-between align-items-center p-3"
-                      >
-                        <div class="">
-                          <i class="fa-solid fa-cake fa-3x"></i>
-                        </div>
-                        <div class="media-body text-end">
-                          <h3>Cumpleaños</h3>
-                          <span>Colaboradores</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- </a> -->
-                <div class="accordion-item">
-                  
-                </div>
-              </button>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-xl-12 col-sm-12 col-2 p-3 ms-5">
-              <button type="button" class="w-100 border-0 btn">
-                <div class="card shadow border-0 infopoint">
-                  <div class="card-content">
-                    <div class="card-body">
-                      <div
-                        class="media d-flex justify-content-between align-items-center p-3"
-                      >
-                        <div class="">
-                          <i class="fa-solid fa-building fa-3x"></i>
-                        </div>
-                        <div class="media-body text-end">
-                          <h3>Eventos</h3>
-                          <span>ATEB</span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </button>
-            </div>
-          </div>
-        </div>
-        <div class="col-9">
+      <div class="col-9">
         <section class="event">
           <img src="images/1.jpeg" alt="">
           <img src="images/2.jpeg" alt="">
           <img src="images/3.jpeg" alt="">
         </section>
-      
+
         <!--  -->
-         
-          <!-- <div  id="carouselExampleSlidesOnly" class=" carousel slide" data-bs-ride="carousel">
+
+        <!-- <div  id="carouselExampleSlidesOnly" class=" carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner2">
               <div class="carousel-item active">
                 <img src="images/4.jpeg" class="rounded mx-auto d-block w-50 m-5 " alt="...">
@@ -166,63 +142,60 @@
               </div>
             </div>
           </div>  -->
-        </div>
       </div>
     </div>
-  
+  </div>
 
-    <!-- Seccion Footer -->
-    <div class="containet bg-dark text-light px-5 pb-0">
-      <footer class="p-5">
-        <div class="row">
-          <div class="col text-center">
-            <h2>ATEB</h2>
-          </div>
-          <div class="col border-end me-5">
-            <ul class="list-unstyled">
-              <li>
-                <p><i class="fa-brands fa-whatsapp"></i> 300-000-0000</p>
-              </li>
-              <li>
-                <p><i class="fa-brands fa-twitter"></i> @ateb</p>
-              </li>
-            </ul>
-          </div>
-          <div class="col">
-            <h2><i class="fa-solid fa-envelope"></i> Contacto</h2>
-            <ul class="list-unstyled">
-              <dl>
-                <dt>Area Juridica</dt>
-                <dd>juridica@company.com</dd>
-                <dt>Area Administrativa</dt>
-                <dd>Administrativa@company.com</dd>
-                <dt>Area Talento Humano</dt>
-                <dd>atlentohumano@company.com</dd>
-              </dl>
-            </ul>
-          </div>
-          <div class="col">
-            <h2><i class="fa-solid fa-location-dot"></i> Sedes</h2>
-            <ul class="list-unstyled">
-              <li class="">Calle 1 # 2 - 4</li>
-              <li class="">Edificio Tal</li>
-              <li class="">Oficina Tal</li>
-            </ul>
-          </div>
+
+  <!-- Seccion Footer -->
+  <div class="containet bg-dark text-light px-5 pb-0">
+    <footer class="p-5">
+      <div class="row">
+        <div class="col text-center">
+          <h2>ATEB</h2>
         </div>
-      </footer>
-    </div>
+        <div class="col border-end me-5">
+          <ul class="list-unstyled">
+            <li>
+              <p><i class="fa-brands fa-whatsapp"></i> 300-000-0000</p>
+            </li>
+            <li>
+              <p><i class="fa-brands fa-twitter"></i> @ateb</p>
+            </li>
+          </ul>
+        </div>
+        <div class="col">
+          <h2><i class="fa-solid fa-envelope"></i> Contacto</h2>
+          <ul class="list-unstyled">
+            <dl>
+              <dt>Area Juridica</dt>
+              <dd>juridica@company.com</dd>
+              <dt>Area Administrativa</dt>
+              <dd>Administrativa@company.com</dd>
+              <dt>Area Talento Humano</dt>
+              <dd>atlentohumano@company.com</dd>
+            </dl>
+          </ul>
+        </div>
+        <div class="col">
+          <h2><i class="fa-solid fa-location-dot"></i> Sedes</h2>
+          <ul class="list-unstyled">
+            <li class="">Calle 1 # 2 - 4</li>
+            <li class="">Edificio Tal</li>
+            <li class="">Oficina Tal</li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
 
-    <!-- Scripts Bootstrap 5.3 -->
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
-      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Scripts Bootstrap 5.3 -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
