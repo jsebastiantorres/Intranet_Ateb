@@ -339,6 +339,7 @@ div.contenedor{
     background-color: var(--bs-cyan);
     transform: translateY(-0.25em);
     color: var(--bs-white);
+}
 
 .galeria {
     position: absolute;
