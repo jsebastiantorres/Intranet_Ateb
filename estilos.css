@@ -301,3 +301,68 @@ h2 {
         bottom: 5rem;
     }
 }
+
+h1{
+    text-align: center;
+    color: #457b9d;
+}
+div.contenedor{
+    width: 50%;
+    height: 20%;
+    overflow: auto;
+    margin:auto;
+    border: 3px solid #a8dadc;
+    background-image: url(images/carousel1.webp);
+}
+.galery{
+    list-style-type: none;
+    text-align: center;
+}
+.galery li{
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    border-radius: -15px;
+}
+
+.cumple:hover,
+.cumple:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-cyan);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+}
+
+.eventos:hover,
+.eventos:focus {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    background-color: var(--bs-cyan);
+    transform: translateY(-0.25em);
+    color: var(--bs-white);
+
+.galeria {
+    position: absolute;
+    right: 15%;
+    bottom: 40.0rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-inner2 {
+    height: 10px;
+}
+
+.carousel-inner2 img:hover{
+    cursor: crosshair;
+    width: 500px;
+    opacity: 1;
+
+}
+.foto{
+    width: 100% !important;
+    height: 420px !important;
+
+}
