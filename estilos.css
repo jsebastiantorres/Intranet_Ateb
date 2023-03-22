@@ -27,6 +27,10 @@
     /* --hover: #{adjust-hue($color, 45deg)}; */
 }
 
+.logo{
+    height: 50px;
+}
+
 .fondo {
     background-color: var(--verdeOscuro);
 }
@@ -135,3 +139,4 @@ h2 {
     transform: translateY(-0.25em);
     color: var(--bs-white);
 }
+
