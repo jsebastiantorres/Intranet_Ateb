@@ -274,12 +274,9 @@ h2 {
 .event img:hover {
     cursor: crosshair;
     width: 500px;
-    opacity: 1;|
+    opacity: 1;
 
 }
-
-
-
 
 
 /* Dejar los @media siempre al final del archivo */
@@ -298,7 +295,7 @@ h2 {
     }
 
     .carousel-caption {
-        bottom: 5rem;
+        bottom: 12rem;
     }
 }
 
