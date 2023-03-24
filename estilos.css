@@ -22,6 +22,8 @@
     --bs-dark: #212529;
     --opacidad-negro: black;
 
+    --bs-facebook: #3B5998;
+
     --sm: 14px;
     --md: 16px;
     --lg: 18px;
@@ -117,7 +119,7 @@ h2 {
 .subtitulos {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 20px;
-    
+
 }
 
 .carousel-caption {
@@ -144,11 +146,11 @@ h2 {
     left: 0%;
 }
 
-.btn-link{
+.btn-link {
     color: var(--bs-white);
 }
 
-.btn-link:hover{
+.btn-link:hover {
     color: var(--bs-dark);
 }
 
@@ -156,13 +158,13 @@ h2 {
 
 /* SECCION PORTALES */
 
-#seccion_portales{
+#seccion_portales {
     background-image: url('images/desenfoque-interior-hospital-clinica.jpg');
     background-size: contain;
     background-position: center;
 }
 
-.tarjeta-portales{
+.tarjeta-portales {
     background: none;
     border: none;
 }
@@ -174,12 +176,12 @@ h2 {
 
 .btn-portales {
     border: none;
-    
+
 }
 
 .heon {
     color: var(--bs-cyan);
-    
+
     /* border: 1px solid; */
 }
 
@@ -282,9 +284,37 @@ h2 {
 
 }
 
-footer{
+
+/* FOOTER */
+footer {
     background-color: black;
 }
+
+
+.facebook {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.facebook div i:hover,
+.facebook div i:focus {
+    margin: 1px;
+    color: var(--bs-facebook);
+}
+
+.instagram {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+.insta-icon:hover,
+.insta-icon:focus{
+    margin: 1px;
+    border-radius: 20%;
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf)
+}
+
+
+
 
 /* Dejar los @media siempre al final del archivo */
 @media (max-width: 1366px) {
@@ -310,23 +340,26 @@ footer{
 
 
 
-h1{
+h1 {
     text-align: center;
     color: #457b9d;
 }
-div.contenedor{
+
+div.contenedor {
     width: 50%;
     height: 20%;
     overflow: auto;
-    margin:auto;
+    margin: auto;
     border: 3px solid #a8dadc;
     background-image: url(images/carousel1.webp);
 }
-.galery{
+
+.galery {
     list-style-type: none;
     text-align: center;
 }
-.galery li{
+
+.galery li {
     display: inline-block;
     padding: 15px;
     margin: 20px;
@@ -364,13 +397,14 @@ div.contenedor{
     height: 10px;
 }
 
-.carousel-inner2 img:hover{
+.carousel-inner2 img:hover {
     cursor: crosshair;
     width: 500px;
     opacity: 1;
 
 }
-.foto{
+
+.foto {
     width: 100% !important;
     height: 420px !important;
 
