@@ -293,7 +293,6 @@ footer {
 
 .facebook {
     color: var(--bs-white);
-    text-decoration: none;
 }
 
 .facebook div i:hover,
@@ -314,6 +313,10 @@ footer {
 }
 
 
+
+.container-directorio{
+    height: 650px;
+}
 
 
 /* Dejar los @media siempre al final del archivo */
